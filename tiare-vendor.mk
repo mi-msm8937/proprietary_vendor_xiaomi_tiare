@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/tiare
 
 $(call inherit-product, vendor/xiaomi/tiare/tiare-vendor-adsp_modules.mk)
+$(call inherit-product, vendor/xiaomi/tiare/tiare-vendor-partial_ril.mk)
 $(call inherit-product, vendor/xiaomi/tiare/tiare-vendor-sensors.mk)
 
 PRODUCT_COPY_FILES += \
