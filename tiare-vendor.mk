@@ -724,4 +724,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tiare/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/xiaomi/tiare/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/tiare/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
-    vendor/xiaomi/tiare/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so
+    vendor/xiaomi/tiare/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
+    vendor/xiaomi/tiare/proprietary/vendor/firmware/aw87329_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_abrcv.bin \
+    vendor/xiaomi/tiare/proprietary/vendor/firmware/aw87329_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_drcv.bin \
+    vendor/xiaomi/tiare/proprietary/vendor/firmware/aw87329_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_kspk.bin
