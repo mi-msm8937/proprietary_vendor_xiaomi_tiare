@@ -17,6 +17,8 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/tiare
 
+$(call inherit-product, vendor/xiaomi/tiare/tiare-vendor-partial_ril.mk)
+
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/tiare/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/tiare/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
